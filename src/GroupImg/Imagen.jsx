@@ -2,7 +2,7 @@ import './Imagen.css'
 
 export const Imagen = () => {
     return <>
-        <div id='Imagen' className=' cajaimg text-center '>
+        <div id='Imagen' className=' container cajaimg text-center '>
             <p className='pimg'>We are a company with more than 30 years in the workplace, we are especially dedicated to training dogs from puppies to adults.
                 What we think about "It's never too late to learn".
                 The main objective is to help dog owners have a better relationship with their pets and improve coexistence between them.

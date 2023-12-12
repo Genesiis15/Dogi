@@ -1,4 +1,5 @@
 import './Navbar.css'
+import navbarperro from '../assets/navbarperro-removebg-preview.png'
 
 export const Navbar = () => {
     return <>
@@ -6,7 +7,7 @@ export const Navbar = () => {
             <div className='container-fluid  '>
 
                 <div className='navbar-brand navImg'>
-                    <img className='navImg' src='https://i.pinimg.com/originals/3e/2f/03/3e2f03dae3305622fc30c41be84b2b99.jpg' />
+                    <img className='navImg' src={navbarperro} />
 
                 </div>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +29,7 @@ export const Navbar = () => {
                             <a className="nav-link" href="#Comment">Blog</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contacte Ve</a>
+                            <a className="nav-link" href="#Footer">Contacte Ve</a>
                         </li>
                     </ul>
                     <form className="d-flex" role="search">

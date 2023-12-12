@@ -1,7 +1,7 @@
 import { Card } from '../GroupCard/Card'
 
 export const SectionII = () => {
-    return <div id='SectionII' className="container my-5">
+    return <div id='SectionII' className="container ">
         <div className=' my-5 row justify-content-around'>
             <div className='col-12 col-md-6 content d-flex flex-column justify-content-between'>
 

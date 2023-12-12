@@ -3,7 +3,7 @@ import { FaWhatsapp, FaInstagram, FaFacebook, FaDog } from "react-icons/fa";
 
 export const Footer = () => {
     return <>
-        <footer className=" text-bg-warning mt-5 " >
+        <footer id='Footer' className=" text-bg-warning mt-5 " >
             <div className='container py-5 text-center'>
 
                 <div className='text-silver'> Copyright 2023, Todos nuestros derechos reservados | <FaDog /> Dogi.com</div>
