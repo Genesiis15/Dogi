@@ -1,0 +1,29 @@
+.cajaimg{
+    
+    margin-top: 200px;
+
+}
+
+.pimg{
+    
+    margin-top: 50px;
+    text-align: center;
+    padding: 40px; 
+}
+
+@media screen and (max-width: 600px) {
+    .cajaimg{
+    
+        margin-top: 80px;
+    
+    }
+   }
+   
+   /* Para pantallas de más de 600px de ancho, la imagen tiene un ancho del 50% */
+   @media screen and (min-width: 601px) {
+    .cajaimg{
+    
+        margin-top: 200px;
+    
+    }
+   }

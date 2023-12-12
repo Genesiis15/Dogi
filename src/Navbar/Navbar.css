@@ -1,0 +1,31 @@
+.searcht:focus{
+  
+ outline: none;
+}
+
+.searcht{
+
+  
+    padding-inline: 10px;
+}
+
+/* Para pantallas de hasta 600px de ancho, la imagen tiene un ancho del 100% */
+@media screen and (max-width: 600px) {
+    .navImg {
+      width: 50%;
+    }
+    .img2 {
+        width: 100%;
+      }
+   }
+   
+   /* Para pantallas de más de 600px de ancho, la imagen tiene un ancho del 50% */
+   @media screen and (min-width: 600px) {
+    .navImg img{
+      width: 150px;
+    }
+    .img2{
+        width: 50%;
+    }
+   }
+   

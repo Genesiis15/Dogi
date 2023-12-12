@@ -1,0 +1,43 @@
+.cajaComent{
+    /* box-shadow: -1px 1px 3px 2px silver; */
+    border-radius: 3px;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+   margin-top: 50px;
+    text-align: center;
+
+  
+}
+
+
+
+.imgAvatar{
+    margin-top: 10px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+h2{
+    color: orange;
+    font-size: 25px;
+}
+
+.cajaTitle h5{
+color: rgba(0, 0, 0, 0.695);
+}
+
+.contentP{
+    margin-top: 40px;
+    padding: 0px 140px;
+}
+
+@media screen and (max-width: 600px) {
+    .contentP{
+        margin-top: 40px;
+        padding: 0px 40px;
+    }
+   }

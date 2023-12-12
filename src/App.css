@@ -1,0 +1,128 @@
+.caja{
+  box-shadow: 1px 0px 3px 1px silver;
+  border-radius: 3px;
+  width: 500px;
+  height: 300px;
+  margin-top: 5%;
+  margin-left: 5%;
+  
+}
+body{
+  overflow-x: hidden;
+}
+.title2{
+  color: orange;
+}
+
+.title1{
+  font-weight: bolder;
+}
+
+.parrafo1{
+ color: rgb(64, 63, 63);
+}
+
+.boton{
+  display: flex;
+  gap: 5%;
+  align-items: center;
+}
+
+.imagenes{
+  border: solid;
+  text-align: center;
+}
+
+.img{
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+ }
+
+ .image-container {
+  position: relative;
+ }
+ 
+ .text-over-image {
+  font-size: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+ }
+
+ .text-over{
+  color: black;
+ }
+ 
+ .bg-section{
+  position: relative;
+  padding-bottom: 200px;
+  
+  background: url('https://img.freepik.com/vector-premium/fondo-presentacion-onda-transparente-abstracta_653872-55.jpg') no-repeat bottom / 100% 100%;
+ }
+.text-bottom {
+  color: white;
+  position: absolute;
+  bottom:20%;
+}
+
+
+ .form-check-input{
+  border: solid;
+  color: orange;
+ }
+.position-bottom{
+  position: absolute;
+  bottom:-10%;
+}
+ @media screen and (max-width: 600px) {
+  .text-bottom{
+    left: 20%;
+  }
+  .position-bottom{
+    position: absolute;
+    bottom:-10%;
+  }
+
+  .bg-section{
+
+    background: url('https://img.freepik.com/vector-premium/fondo-presentacion-onda-transparente-abstracta_653872-55.jpg') no-repeat bottom / 100% 48%;
+   }
+   .alto{
+    height: 70px; border: solid;
+   }
+ }
+
+ /* Para pantallas de más de 600px de ancho, la imagen tiene un ancho del 50% */
+ @media screen and (min-width: 600px) {
+  .text-bottom  {
+    position: absolute;
+    left: 40%;
+    
+
+  }
+    .position-bottom{
+    position: absolute;
+    right:25%;
+    bottom:-25%;
+
+  }
+  .alto{
+    height: 170px; border: solid;
+   }
+ }
+
+ .cajaComentarios{
+  
+ }
